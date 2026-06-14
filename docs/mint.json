@@ -1,0 +1,98 @@
+{
+  "name": "Striatum",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#22c55e",
+    "light": "#4ade80",
+    "dark": "#16a34a"
+  },
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://app.zea.cl"
+  },
+  "tabs": [
+    {
+      "name": "Docs",
+      "url": "introduction"
+    },
+    {
+      "name": "SDK & Examples",
+      "url": "sdks/typescript/overview"
+    },
+    {
+      "name": "API Reference",
+      "url": "api-reference/authentication"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "introduction",
+        "quickstart",
+        "quickstart/cli-setup"
+      ]
+    },
+    {
+      "group": "SDKs",
+      "pages": [
+        {
+          "group": "TypeScript",
+          "pages": [
+            "sdks/typescript/overview",
+            "sdks/typescript/checkout",
+            "sdks/typescript/hooks",
+            "sdks/typescript/client",
+            "sdks/typescript/webhooks"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Features",
+      "pages": [
+        "features/transactions",
+        "features/sii-invoicing",
+        "features/webhooks",
+        "features/metered-billing",
+        "features/sandbox",
+        "features/multi-tenant"
+      ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-reference/authentication",
+        "api-reference/transactions",
+        "api-reference/api-keys",
+        "api-reference/webhooks",
+        "api-reference/metered-billing",
+        "api-reference/sandbox",
+        "api-reference/health"
+      ]
+    },
+    {
+      "group": "Integrations",
+      "pages": [
+        "integrations/cortex",
+        "integrations/cerebelum",
+        "integrations/thalamus"
+      ]
+    },
+    {
+      "group": "Resources",
+      "pages": [
+        "resources/changelog",
+        "resources/limits",
+        "resources/security"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/ZeaCl/striatum"
+  }
+}
