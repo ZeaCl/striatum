@@ -1,0 +1,8 @@
+{
+  "name": "@zea/striatum-cli",
+  "version": "0.1.0",
+  "description": "CLI for ZEA Striatum — Payment service",
+  "bin": { "zea-striatum": "./index.js" },
+  "license": "Apache-2.0",
+  "dependencies": { "commander": "^12.0" }
+}

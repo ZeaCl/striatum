@@ -1,0 +1,17 @@
+# Striatum
+/_build/
+/deps/
+/cover/
+/doc/
+/.elixir_ls/
+*.ez
+
+# NPM
+/sdk/node_modules/
+/sdk/dist/
+/cli/node_modules/
+/node_modules/
+
+# Environment
+.env
+.env.local

@@ -1,0 +1,24 @@
+CREATE DATABASE striatum_prod;
+
+-- Register OAuth2 client in Thalamus
+-- Run this against the thalamus DB:
+-- INSERT INTO oauth2_clients (
+--   id, client_id_string, name, client_type, client_secret,
+--   is_active, allowed_grant_types, allowed_scopes,
+--   redirect_uris, organization_id, pkce_required,
+--   token_endpoint_auth_method, access_token_lifetime
+-- ) VALUES (
+--   gen_random_uuid(),
+--   'striatum_service',
+--   'Striatum Payment Service',
+--   'confidential',
+--   'change_in_production',
+--   true,
+--   ARRAY['client_credentials'],
+--   ARRAY['openid','striatum:read','striatum:write','striatum:admin'],
+--   ARRAY[]::varchar[],
+--   '5fd11ea0-852c-44e5-aee1-a761ec76eaea',
+--   false,
+--   'client_secret_post',
+--   3600
+-- );
